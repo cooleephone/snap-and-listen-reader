@@ -4,7 +4,9 @@ A low-cost prototype that helps visually impaired users read a printed page: cam
 
 # snap-and-listen-reader
 
-一个帮助视力障碍用户阅读纸质页面的低成本开源原型。
+## 项目简介
+
+`snap-and-listen-reader` 是一个帮助视力障碍用户阅读纸质页面的低成本开源原型。用户用手机拍一页纸，应用通过 **相机 → OCR → AI 纠错与分段 → TTS 语音朗读** 的流程把内容读出来，并用音频和触觉提示引导用户对准页面、改善光线和处理识别失败。当前处于需求验证和原型规划阶段，欢迎视障用户、开发者和无障碍研究者参与共创。
 
 当前状态：**需求验证 / 原型规划阶段**。项目尚未完成，欢迎视障用户、无障碍研究者、开发者和学生参与共创。
 
@@ -13,12 +15,6 @@ A low-cost prototype that helps visually impaired users read a printed page: cam
 让用户用手机拍一页纸，就能听到这一页的内容：
 
 **拍照 → OCR 识别 → AI 纠错与分段 → TTS 语音朗读 → 语音控制**
-
-重点不是做一个大而全的阅读器，而是先验证一个最小闭环：
-
-- 用户能否独立完成“拍一页、听一页”
-- 首次语音反馈能否在 1–2 秒内开始
-- 页面没对准、光线不足、OCR 置信度低时，能否用非视觉方式引导用户
 
 ## 目标用户
 
